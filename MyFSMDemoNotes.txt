@@ -1,2 +1,39 @@
 Welcome to Field Titans! Field Titans is a Wind Turbine Service Provider and has recently implemented ServiceNow Field Service Management to manage work requests for their many wind farm customers. Impersonate the various field service process user personas to perform the activities necessary to initiate, qualify, dispatch, and deliver and confirm work order requests. 
 
+Terry Johnson is a Wind Farm Operator, and Field Titans’ Customer, at Breeze Wind Farm in Texas, USA. Terry has called Field Titans’ support to report a yaw error for Wind Turbine Asset # WT30011. Impersonate Lena Rayne (lrayne), a Field Titans’ Initiator, and create a work order request for this wind turbine asset, using the ‘Yaw Misalignment Correction’ work order template, and then mark it as Ready for Qualification.
+
+Use 'Breeze Wind Farm' for the Company
+Use 'Terry Johnson' (terry.johnson) for the Contact
+Use 'WT30011 - Vestas Wind Turbine' for the Asset
+Use 'Yaw Misalignment Correction' for the Template
+Use 'Texas Qualifiers' for the Qualification group
+
+Terry Johnson is Wind Farm Operator, and Field Titans’ Customer, at Breeze Wind Farm in Texas. Terry has called Field Titans’ support to report a generator failure for Wind Turbine Asset # WT30012. Impersonate Lena Rayne (lrayne), a Field Titans’ Initiator, and create a work order request for Breeze Wind Farm for ‘generator failure’, assign it to the Texas Qualifiers group, and mark it as Ready for Qualification.
+
+Use 'Breeze Wind Farm' for the Company
+Use 'Terry Johnson' (terry.johnson) for the Contact
+Use 'WT30012 - Vestas Wind Turbine' for the Asset
+Use 'generator failure' for the Short description
+Use 'Texas Qualifiers' for the Qualification group
+
+Trace Wardrobe is a Field Titans’ Qualifier belonging to the Texas Qualifiers group. Impersonate Trace Wardrobe (twardrobe) and qualify the Work Order Task which was auto generated for the Parent Work Order Request with the Short description ‘generator failure’. As part of your qualification steps: 
+
+Change the Work Order Task Short description to: ‘generator failure – repair or replace’
+Add the ‘Generators’ Skill
+Use ‘Texas Dispatchers’ for the Dispatch group
+Create a Part Requirement for one ‘Winergy Generator’ and use the current date and time for the required by date
+Qualify the work order task
+
+
+Glen Fisher is a Field Titans Dispatcher belonging to the Texas Dispatchers group. Impersonate Glen Fisher (gfisher) and assign the generator repair or replace work order task to Isaak Erich (ierich), who is a member of the Texas Agents Assignment group.
+
+(You may receive a warning from the system that  "WOT001000# has been scheduled for a time the assigned agent may not be available". You may disregard this message.)
+
+Isaak Erich is a Field Agent belonging to the Texas Agents group. Impersonate Isaak Erich (ierich) and complete the generator repair or replace work order task. As part of your delivery and confirmation activities for this task:
+
+Locate the generator repair or replace work order task
+Accept the task
+Start Work on the task
+Record 30 minutes of time worked for the task
+Close the task
+When prompted to record a summary of the work performed, write: generator replaced
